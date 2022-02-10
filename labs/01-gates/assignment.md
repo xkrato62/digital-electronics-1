@@ -16,7 +16,7 @@ begin
     f_nor_o  <= -- WRITE YOUR CODE HERE
 end architecture dataflow;
 ```
-
+PPPPErfect
 3. Complete table with logic functions' values:
 
 | **c** | **b** |**a** | **f(c,b,a)** | **f_NAND(c,b,a)** | **f_NOR(c,b,a)** |
