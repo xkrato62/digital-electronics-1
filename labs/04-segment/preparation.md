@@ -19,4 +19,5 @@
 
 
  ![your figure](images/7.segment.png)
- ![your figure](images3/7.segment1.png)
+ 
+ ![your figure](images/7.segment1.png)
