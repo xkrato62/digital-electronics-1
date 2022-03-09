@@ -7,7 +7,10 @@
 ```vhdl
 architecture Behavioral of mux_3bit_4to1 is
 begin
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4e0d59176ef3024565e3c2b4f26b06d3689f5203
    f_o <=  a_i when (sel_i = "00") else
            b_i when (sel_i = "01") else
            c_i when (sel_i = "10") else
@@ -22,6 +25,10 @@ end architecture Behavioral;
 
 
 https://www.edaplayground.com/x/DAqb
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4e0d59176ef3024565e3c2b4f26b06d3689f5203
 
 3. Listing of pin assignments for the Nexys A7 board in `nexys-a7-50t.xdc`. **DO NOT list** the whole file, just your switch and LED settings.
 
@@ -48,4 +55,8 @@ set_property -dict { PACKAGE_PIN V10   IOSTANDARD LVCMOS33 } [get_ports { sel_i[
 set_property -dict { PACKAGE_PIN H17   IOSTANDARD LVCMOS33 } [get_ports { f_o[0] }]; #IO_L18P_T2_A24_15 Sch=led[0]
 set_property -dict { PACKAGE_PIN K15   IOSTANDARD LVCMOS33 } [get_ports { f_o[1] }]; #IO_L24P_T3_RS1_15 Sch=led[1]
 set_property -dict { PACKAGE_PIN J13   IOSTANDARD LVCMOS33 } [get_ports { f_o[2] }]; #IO_L17N_T2_A25_15 Sch=led[2]
+<<<<<<< HEAD
 ...
+=======
+...
+>>>>>>> 4e0d59176ef3024565e3c2b4f26b06d3689f5203
