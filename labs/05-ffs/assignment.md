@@ -9,12 +9,7 @@
 architecture Behavioral of t_ff_rst is
     signal s_q : std_logic;       -- Signal defined for previous state(need for T FF)
 begin
-    --------------------------------------------------------
-    -- p_t_ff_rst:
-    -- T type flip-flop with a high-active sync reset,
-    -- rising-edge clk.
-    -- q(n+1) = q(n+1) = t./q(n) + /t.q(n)
-    --------------------------------------------------------
+ 
     p_t_ff_rst : process(clk)
     begin
         if rising_edge(clk) then  -- Synchronous binary_read
