@@ -8,9 +8,9 @@ Due to the physiological properties of human vision, it is necessary that the ti
 
 <img src= "Images/Nexys_A7_connection.png" width=50% height=50%>
 
-  ![7 Segment display number](Images/7-Segment-Display-Number-Formation-Segment-Contol.png)
+  ![7 Segment display number](Images/seven-segment.png)
 
-  ![Timing of seven-segment display](Images/Wavedrom_7-segment.png)
+  ![Timing of seven-segment display](Images/run.png)
 
   > The figure above was created in [WaveDrom](https://wavedrom.com/) digital timing diagram online tool. The figure source code is as follows:
   >
