@@ -11,6 +11,9 @@ Due to the physiological properties of human vision, it is necessary that the ti
   ![7 Segment display number](images/seven-segment.png)
 
   ![Timing of seven-segment display](images/run.png)
+  
+   ![Timing of seven-segment display1](images/run1.png)
+
 
   > The figure above was created in [WaveDrom](https://wavedrom.com/) digital timing diagram online tool. The figure source code is as follows:
   >
