@@ -14,14 +14,18 @@
     begin
         if rising_edge(clk) then
         
-            if (reset = '1') then   -- Synchronous reset
+            if (reset = '1') then               -- Synchronous reset
                 s_cnt_local <= (others => '0'); -- Clear all bits
 
-            elsif (en_i = '1') then -- Test if counter is enabled
-
-                -- TEST COUNTER DIRECTION HERE
-
+            elsif (en_i = '1') then             -- Test if counter is enabled
+                
+                if (cnt_up_i = '1') then        -- Counting up
                     s_cnt_local <= s_cnt_local + 1;
+                    
+                elsif (cnt_up_i = '0') then     -- Counting down
+                    s_cnt_local <= s_cnt_local - 1;
+                    
+                end if;
             end if;
         end if;
     end process p_cnt_up_down;
