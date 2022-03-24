@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar 17 13:08:55 2022
+# Process ID: 6392
+# Current directory: D:/Documents/xkrato62/digital-electronics-1/labs/06-counter/counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2984 D:\Documents\xkrato62\digital-electronics-1\labs\06-counter\counter\counter.xpr
+# Log file: D:/Documents/xkrato62/digital-electronics-1/labs/06-counter/counter/vivado.log
+# Journal file: D:/Documents/xkrato62/digital-electronics-1/labs/06-counter/counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Documents/xkrato62/digital-electronics-1/labs/06-counter/counter/counter.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_cnt_up_down.tcl
+close_sim
+launch_simulation
+launch_simulation
+source tb_cnt_up_down.tcl
+add_bp {D:/Documents/xkrato62/digital-electronics-1/labs/06-counter/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd} 61
+remove_bps -file {D:/Documents/xkrato62/digital-electronics-1/labs/06-counter/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd} -line 61
+add_bp {D:/Documents/xkrato62/digital-electronics-1/labs/06-counter/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd} 60
+remove_bps -file {D:/Documents/xkrato62/digital-electronics-1/labs/06-counter/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd} -line 60
+close_sim
+launch_simulation
+source tb_cnt_up_down.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top cnt_up_down [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+set_property top_arch behavioral [get_filesets sim_1]
+set_property top_file D:/Documents/xkrato62/digital-electronics-1/labs/06-counter/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
