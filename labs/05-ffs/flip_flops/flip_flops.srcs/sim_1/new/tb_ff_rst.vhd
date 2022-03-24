@@ -95,9 +95,9 @@ begin
         s_rst <= '0';
 
         -- ACTIVATE AND DEACTIVATE RESET HERE
-         wait for 93 ns;
+         wait for 95 ns;
          s_rst <= '1';
-         wait for 31 ns;
+         wait for 10 ns;
          s_rst <= '0';
 
         wait;
@@ -119,7 +119,6 @@ begin
         s_data <='1'; wait for 24 ns;
         s_data <='0'; wait for 30 ns;
         s_data <='1'; wait for 24 ns;
-
 
         -- DEFINE YOUR INPUT DATA HERE
 

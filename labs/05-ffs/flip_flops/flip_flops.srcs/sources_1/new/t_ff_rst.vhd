@@ -60,7 +60,7 @@ begin
         s_q <= s_q;
         
         else 
-        s_q<= not s_q;
+        s_q <= not s_q;
 
          end if;
       end if;
