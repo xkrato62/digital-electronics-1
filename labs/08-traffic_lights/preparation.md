@@ -5,3 +5,4 @@
 
    ![your figure](images/7.seg.png)
    ![your figure](images/pmod.png)
+   ![your figure](images/pmodpin.png)
