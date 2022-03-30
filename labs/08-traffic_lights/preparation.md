@@ -4,3 +4,4 @@
 | LD17 | N16, R11, G14 | 1,0,0 | 0,0,1 | 0,1,0 | 
 
    ![your figure](images/7.seg.png)
+   ![your figure](images/pmod.png)
