@@ -110,5 +110,4 @@
     end process p_traffic_fsm;
 
 3. Screenshot with simulated time waveforms. The full functionality of the entity must be verified. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
-
-![your figure](images/7.seg.png)
+ ![your figure](images/pribeh.png)
